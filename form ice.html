@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #ee8967;
+      }
+      .resizedTextbox {
+        margin: 0.5em 0.5em;
+        width: 2em;
+        height: 1.5em;
+        border-radius: 8px;
+        border: 1.5px solid grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <fieldset style="background-color: bisque">
+        <legend><b>Data Pelanggan</b></legend>
+        <div>
+          <form action="#">
+            <h3>Nama Pelanggan:</h3>
+            <input type="text" name="nama" id="nama" placeholder="Ketikkan Nama Kamu" style="border-radius: 5px; border: 1.3px solid grey" />
+            <br />
+            <h3>Produk Yang dibeli:</h3>
+            <ul style="display: flex">
+              <li style="font-size: medium">ICE CREAM:</li>
+              <div style="flex-direction: column">
+                <input type="checkbox" name="choice1" id="produk" />
+                <label for="choice1">3 flavours in a cone</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice2" id="produk" />
+                <label for="choice2">3 flavours in a bowl</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice3" id="produk" />
+                <label for="choice3">capuccino ice cream</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice4" id="produk" />
+                <label for="choice4">vanilla purple</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice5" id="produk" />
+                <label for="choice5">vanilla ice cream</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice6" id="produk" />
+                <label for="choice6">choklat ice cream</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice7" id="produk" />
+                <label for="choice7">red velvet ice cream</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice8" id="produk" />
+                <label for="choice8">strowberi ice cream</label><input type="number" class="resizedTextbox" /><br />
+              </div>
+              <li style="font-size: medium; margin-left: 2em">Topping:</li>
+              <div>
+                <input type="checkbox" name="choice8" id="produk" />
+                <label for="choice8">choco chip</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice9" id="produk" />
+                <label for="choice9">mesis raibow</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice10" id="produk" />
+                <label for="choice10">oreo</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice11" id="produk" />
+                <label for="choice11">wafer rolls</label><input type="number" class="resizedTextbox" /><br />
+                <input type="checkbox" name="choice12" id="produk" />
+                <label for="choice12">kacang almond</label><input type="number" class="resizedTextbox" />
+              </div>
+            </ul>
+            <br />
+            <div>
+              <h3>Nomor Telepon:</h3>
+              <input type="number" placeholder="Nomor Hp Anda" style="border-radius: 5px; border: 1.3px solid grey" />
+            </div>
+            <h3>Alamat Pemesanan:</h3>
+            <div style="display: flex">
+              <textarea name="alamat" id="alamat" cols="40" rows="5" placeholder="Alamat anda" style="border-radius: 5px"></textarea>
+            </div>
+            <input type="submit" style="margin-left: 1050px" />
+          </form>
+        </div>
+      </fieldset>
+    </div>
+  </body>
+</html>
